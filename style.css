@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(white, lightblue);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    font-size: 2em;
+}   
+
+#logo-image {
+    width: 7em;
+    display: flex;  
+    margin: 0 auto;
+    padding: 1em;
+}
+
+a {
+    color: black;
+}
+
+ a:hover {
+     font-weight: bold;
+ }
+
+ .about {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 3em;
+    background: linear-gradient(0.25turn, pink,white, lightgrey);  
+ }
+
+ .about_text {
+    padding: 1em;
+ }
+
+.navi {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#spoti {
+    display: flex;
+     margin: 0 auto;
+}
